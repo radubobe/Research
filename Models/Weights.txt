@@ -1,0 +1,16 @@
+s1, s2, s3, s4, s5, s6
+weightLeft1, weightLeft2, weightLeft3, weightLeft4, weightLeft5, weightLeft6
+weightRight1, weightRight2, weightRight3, weightRight4, weightRight5, weightRight6
+weightLeft1 = 6
+weightLeft2 = 4
+weightLeft3 = 2
+weightLeft4 = -6
+weightLeft5 = -4
+weightLeft6 = -2
+weightRight1 = -6
+weightRight2 = -4
+weightRight3 = -2
+weightRight4 = 6
+weightRight5 = 4
+weightRight6 = 2
+cruiseSpeed = 1
