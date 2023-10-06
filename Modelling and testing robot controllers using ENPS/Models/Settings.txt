@@ -1,2 +1,0 @@
-modelFileName=Model 4
-weightFileName=Weights
