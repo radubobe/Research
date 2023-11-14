@@ -15,4 +15,5 @@ The road tests included in *Simulation results* are generated using [Ambiegen](h
 
 - Worlds: test scenarios instantiated as scenes in Webots 
 
+A video representation of our tests can be found at [this address](https://www.youtube.com/watch?v=FA7snrqaKKs). 
 
