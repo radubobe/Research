@@ -1,0 +1,97 @@
+
+a =-1,pr1,-1          k=-1,pr1,pr1		u=-1,-1,pr2     5=pr1,pr1,pr2
+
+b =-1,-1,pr0         l= -1,pr0,pr1		v=pr1,pr0,pr1
+
+c=-1,pr0,-1			  m= pr0,-1,-1		w=-1,pr1,pr2
+
+d=-1,pr1,pr0		  n=pr0,pr1,-1		x=pr0,-1,pr0
+
+e=-1,pr0,pr0		  o=pr1,-1,pr0		y=pr0,pr1,pr0
+
+f=-1,-1,pr0			  p=pr0,pr0,-1		z=pr0,pr0,pr0
+
+g=pr1,-1,-1			  q=pr1,pr1,pr0		1=pr0,-1,pr1
+
+h=pr1,pr1,-1		  r=pr1,pr0,pr0		2=pr0,pr1,pr1
+
+i= -1,-1,pr1		  s=pr1,-1,pr1		3=pr0,pr0,pr1
+
+j=pr1,pr0,-1		  t=pr1,pr1,pr1		4=pr1,-1,pr2
+
+
+eps -> 0+0      
+ab->0+1			
+cab->0+2
+adb->0+3
+ccab->0+4
+aeac->0+5
+cadf->0+6
+addf->0+7
+
+gb->1+0
+hib->1+1
+jdb->1+2
+hkib->1+3
+jeaf->1+4
+hldf->1+5
+jddf->1+6
+hkkib->1+7
+
+mgb->2+0
+nob->2+1
+phib->2+2
+nqib->2+3
+pjdb->2+4
+nrdb->2+5
+phkib->2+6
+nqkib->2+7
+
+gof->3+0
+hsib->3+1
+jqib->3+2
+htub->3+3
+jrdb->3+4
+hvkib->3+5
+jqkib->3+6
+htwib->3+7
+
+mmgb->4+0
+nxgb->4+1
+pnob->4+2
+nyob->4+3
+pphib->4+4
+nzhib->4+5
+pnqib->4+6
+nyqib->4+7
+
+gxgb->5+0
+h1ob->5+1
+jyob->5+2
+h2sib->5+3
+jzhib->5+4
+h3qib->5+5
+jyqib->5+6
+h2tub->5+7
+
+mgob->6+0
+noob->6+1
+phsib->6+2
+nqsib->6+3
+pjqib->6+4
+nrqib->6+5
+phtub->6+6
+nqtub->6+7
+
+goob->7+0
+hssib->7+1
+jqsib->7+2
+ht4ib->7+3
+jrqib->7+4
+hvtub->7+5
+jqtub->7+6
+ht5ub->7+7
+
+
+
+
