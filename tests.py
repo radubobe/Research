@@ -1,9 +1,9 @@
 from learning_algorithm import LearningAutomata
 from ComputeUtil import ComputeUtil
-alphabet = ['a', 'b','c','d','f','g','h','i','j','k','m','n','o','p','q','s','t','u']
-language = ['ab','cab','adb','gb','hib','jdb','hkib','mgb','nob','phib','nqib','gof','hsib','jqib','htub']
+alphabet = ['a', 'b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r']
+language = ['abbcd','bcbd','efgid','lebmnid','pqd','kod','rad','hid','jcbd']
 maximumLength = max(list(map(lambda a: len(a), language)))
-learningAutomata = LearningAutomata(alphabet, language, 4)
+learningAutomata = LearningAutomata(alphabet, language, 7)
 
 learningAutomata.compute()
 Q, F, table = learningAutomata.buildAutomaton()
@@ -17,7 +17,7 @@ print("Observation table: ", observation_table)
 new_s_set = ComputeUtil.compute_s_set(s_set, observation_table)
 print("Print new_s_set:",new_s_set)
 observation_table_new_s_set = learningAutomata.get_table(new_s_set, w_set)
-print("Print observation table:",observation_table_new_s_set)
+print("Print observation table new_s_set:",observation_table_new_s_set)
 new_w_set = ComputeUtil.compute_w_set(w_set, observation_table_new_s_set)
 print("Print new_w_set:",new_w_set)
 u_set = ComputeUtil.compute_u_set_with_letters(s_set=new_s_set, alphabet=alphabet, w_set=new_w_set)

@@ -1,0 +1,36 @@
+a=1,1,0        j=1,0,0           r=0,2,0
+b=2,1,0        k=1,0,1
+c=2,2,0		   l=0,0,0
+d=2,2,1
+e=1,2,0        m=2,0,1
+f=2,0,0		   n=0,2,1
+g=0,1,0		   o=2,1,1
+h=0,1,1		   p=0,0,1
+i=1,2,1		   q=1,1,1
+
+
+traces_1: 
+
+1,1,0,9 -> abbcd
+2,1,0,6->bcbd
+1,1,1,4->efgid
+0,1,2,5->lebmnid
+3,1,2,0->pqd
+1,1,2,0->kod
+3,0,1,2->rad
+0,1,0,0->hid
+1,1,2,4->jcbd
+
+
+traces_2: 
+
+3,2,2,1 ->ld (triggers the first rule of each compartment)
+5,2,6,3->bcd (triggers the second rule from the second compartment)
+1,6,7,4->effk (triggers the second rule from the first compartment )
+
+traces_3:
+5,6,3,0->oo (triggers the second rule from the second compartment)
+3,5,4,2->raod (triggers the first rule from all the compartments and the second rule from compartments 1 and 2)
+5,2,1,5->cfgid (triggers the first rule of the second compartment)
+3,4,6,2->gamknid 
+
