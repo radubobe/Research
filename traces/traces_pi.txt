@@ -1,15 +1,15 @@
-a=1,1,0        j=1,0,0           r=0,2,0
-b=2,1,0        k=1,0,1
-c=2,2,0		   l=0,0,0
-d=2,2,1
-e=1,2,0        m=2,0,1
-f=2,0,0		   n=0,2,1
-g=0,1,0		   o=2,1,1
-h=0,1,1		   p=0,0,1
-i=1,2,1		   q=1,1,1
+ϕ1=a=1,1,0        ϕ10=j=1,0,0           
+ϕ2=b=2,1,0        ϕ11=k=1,0,1
+ϕ3=c=2,2,0		  ϕ12=l=0,0,0
+ϕ4=d=2,2,1		  ϕ13=m=2,0,1
+ϕ5=e=1,2,0        ϕ14=n=0,2,1
+ϕ6=f=2,0,0		  ϕ15=o=2,1,1
+ϕ7=g=0,1,0		  ϕ16=p=0,0,1
+ϕ8=h=0,1,1		  ϕ17=q=1,1,1
+ϕ9=i=1,2,1		  ϕ18=r=0,2,0
 
 
-traces_1: 
+traces experiment 1 (triggers all the above processing functions): 
 
 1,1,0,9 -> abbcd
 2,1,0,6->bcbd
@@ -22,15 +22,15 @@ traces_1:
 1,1,2,4->jcbd
 
 
-traces_2: 
+traces experiment 2: 
 
 3,2,2,1 ->ld (triggers the first rule of each compartment)
 5,2,6,3->bcd (triggers the second rule from the second compartment)
 1,6,7,4->effk (triggers the second rule from the first compartment )
 
-traces_3:
+traces experiment 3:
 5,6,3,0->oo (triggers the second rule from the second compartment)
 3,5,4,2->raod (triggers the first rule from all the compartments and the second rule from compartments 1 and 2)
 5,2,1,5->cfgid (triggers the first rule of the second compartment)
-3,4,6,2->gamknid 
+
 

@@ -1,0 +1,27 @@
+
+Q: ['', 'b', 'e', 'l', 'ef', 'ld', 'eff']
+F: [5]
+Table:  [[1, 2, 2, 2, 2, 2, 3], [2, 3, 2, 2, 2, 2, 2], [2, 2, 2, 2, 4, 2, 2], [2, 2, 5, 2, 2, 2, 2], [0, 0, 0, 0, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 5, 0]]
++-----+-----+-----+-----+-----+-----+-----+
+|   b |   c |   d |   e |   f |   k |   l |
++=====+=====+=====+=====+=====+=====+=====+
+|   1 |   2 |   2 |   2 |   2 |   2 |   3 |
++-----+-----+-----+-----+-----+-----+-----+
+|   2 |   3 |   2 |   2 |   2 |   2 |   2 |
++-----+-----+-----+-----+-----+-----+-----+
+|   2 |   2 |   2 |   2 |   4 |   2 |   2 |
++-----+-----+-----+-----+-----+-----+-----+
+|   2 |   2 |   5 |   2 |   2 |   2 |   2 |
++-----+-----+-----+-----+-----+-----+-----+
+|   0 |   0 |   0 |   0 |   6 |   0 |   0 |
++-----+-----+-----+-----+-----+-----+-----+
+|   0 |   0 |   0 |   0 |   0 |   0 |   0 |
++-----+-----+-----+-----+-----+-----+-----+
+|   0 |   0 |   0 |   0 |   0 |   5 |   0 |
++-----+-----+-----+-----+-----+-----+-----+
+Observation table:  [[0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, -1, -1], [1, 0, 0, 0, 0, 0, 0, 0, -1, -1], [0, 0, 1, 0, -1, -1, -1, -1, -1, -1], [1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
+Print new_s_set: ['', 'b', 'e', 'l', 'ef', 'ld', 'eff']
+Print observation table new_s_set: [[0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, -1, -1], [1, 0, 0, 0, 0, 0, 0, 0, -1, -1], [0, 0, 1, 0, -1, -1, -1, -1, -1, -1]]
+Print new_w_set: ['', 'd', 'k', 'l', 'cd', 'fk', 'ld']
+Print u_set: ['', 'd', 'k', 'l', 'cd', 'fk', 'ld', 'b', 'bd', 'bk', 'bl', 'bcd', 'bfk', 'bld', 'c', 'ck', 'cl', 'ccd', 'cfk', 'cld', 'dd', 'dk', 'dl', 'dcd', 'dfk', 'dld', 'e', 'ed', 'ek', 'el', 'ecd', 'efk', 'eld', 'f', 'fd', 'fl', 'fcd', 'ffk', 'fld', 'kd', 'kk', 'kl', 'kcd', 'kfk', 'kld', 'lk', 'll', 'lcd', 'lfk', 'lld', 'bb', 'bbd', 'bbk', 'bbl', 'bbcd', 'bbfk', 'bbld', 'bc', 'bck', 'bcl', 'bccd', 'bcfk', 'bcld', 'bdd', 'bdk', 'bdl', 'bdcd', 'bdfk', 'bdld', 'be', 'bed', 'bek', 'bel', 'becd', 'befk', 'beld', 'bf', 'bfd', 'bfl', 'bfcd', 'bffk', 'bfld', 'bkd', 'bkk', 'bkl', 'bkcd', 'bkfk', 'bkld', 'blk', 'bll', 'blcd', 'blfk', 'blld', 'eb', 'ebd', 'ebk', 'ebl', 'ebcd', 'ebfk', 'ebld', 'ec', 'eck', 'ecl', 'eccd', 'ecfk', 'ecld', 'edd', 'edk', 'edl', 'edcd', 'edfk', 'edld', 'ee', 'eed', 'eek', 'eel', 'eecd', 'eefk', 'eeld', 'ef', 'efd', 'efl', 'efcd', 'effk', 'efld', 'ekd', 'ekk', 'ekl', 'ekcd', 'ekfk', 'ekld', 'elk', 'ell', 'elcd', 'elfk', 'elld', 'lb', 'lbd', 'lbk', 'lbl', 'lbcd', 'lbfk', 'lbld', 'lc', 'lck', 'lcl', 'lccd', 'lcfk', 'lcld', 'ldd', 'ldk', 'ldl', 'ldcd', 'ldfk', 'ldld', 'le', 'led', 'lek', 'lel', 'lecd', 'lefk', 'leld', 'lf', 'lfd', 'lfl', 'lfcd', 'lffk', 'lfld', 'lkd', 'lkk', 'lkl', 'lkcd', 'lkfk', 'lkld', 'llk', 'lll', 'llcd', 'llfk', 'llld', 'efb', 'efbd', 'efbk', 'efbl', 'efc', 'efck', 'efcl', 'efdd', 'efdk', 'efdl', 'efe', 'efed', 'efek', 'efel', 'eff', 'effd', 'effl', 'efkd', 'efkk', 'efkl', 'eflk', 'efll', 'ldb', 'ldbd', 'ldbk', 'ldbl', 'ldc', 'ldck', 'ldcl', 'lddd', 'lddk', 'lddl', 'lde', 'lded', 'ldek', 'ldel', 'ldf', 'ldfd', 'ldfl', 'ldkd', 'ldkk', 'ldkl', 'ldlk', 'ldll', 'effb', 'effc', 'effe', 'efff']
+
