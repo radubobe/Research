@@ -14,6 +14,6 @@ The project contains:
 
 Prerequisites:
 
--PeP NPS simulator 
+- PeP NPS simulator 
 - Python: 3.13.5
 - tabulate: 0.10.0 (MIT license)
